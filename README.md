@@ -51,45 +51,7 @@ A modern, responsive portfolio website built with React, TypeScript, and Tailwin
 ```bash
 npm run build
 ```
-
-## 📁 Project Structure
-
 ```
-src/
-├── components/
-│   ├── About.tsx          # About section
-│   ├── Certifications.tsx # Certifications display
-│   ├── Contact.tsx        # Contact form
-│   ├── CursorTrail.tsx    # Custom cursor effects
-│   ├── Experience.tsx     # Work experience timeline
-│   ├── Header.tsx         # Navigation header
-│   ├── Hero.tsx           # Hero section
-│   ├── LoadingScreen.tsx  # Loading animation
-│   ├── ParticleBackground.tsx # Animated background
-│   ├── Projects.tsx       # Projects showcase
-│   ├── ScrollToTop.tsx    # Scroll to top button
-│   └── Skills.tsx         # Skills section
-├── App.tsx                # Main app component
-├── main.tsx              # Entry point
-└── index.css             # Global styles
-```
-
-## 🎨 Customization
-
-### Personal Information
-Update the following files with your information:
-- `src/components/Hero.tsx` - Your name, title, and introduction
-- `src/components/About.tsx` - Your bio and personal details
-- `src/components/Experience.tsx` - Your work experience
-- `src/components/Projects.tsx` - Your projects
-- `src/components/Skills.tsx` - Your skills
-- `src/components/Certifications.tsx` - Your certifications
-- `src/components/Contact.tsx` - Contact information
-
-### Styling
-- Colors and themes can be customized in `tailwind.config.js`
-- Component-specific styles are in each component file
-- Global styles are in `src/index.css`
 
 ## 📧 Contact Form Setup
 
