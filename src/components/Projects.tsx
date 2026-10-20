@@ -28,10 +28,10 @@ const Projects: React.FC = () => {
       demoUrl: ''
     },
     {
-      title: 'Spriced-NRP',
-      description: 'Web application using Angular 13, TypeScript, and NgRx. Developed dynamic forms, integrated REST APIs, and optimized state management for a scalable and maintainable platform.',
-      image: 'https://images.pexels.com/photos/8369648/pexels-photo-8369648.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tech: ['Angular', 'Material UI', 'NgRx'],
+      title: 'DJJS - Event Management Website',
+      description: 'Contributed to the Divya Jyoti Jagrati Sansthan event management platform. Implemented dynamic UI components and backend integrations to manage event information and updates, with responsive design and optimized UI performance across devices.',
+      image: 'https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=800',
+      tech: ['Angular', 'Nest.js', 'Material UI'],
       featured: false,
       demoUrl: ''
     },

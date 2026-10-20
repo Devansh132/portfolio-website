@@ -1,17 +1,11 @@
 import React, { useEffect, useRef } from 'react';
 import { ChevronDown, Code, Palette, Zap, Download, Eye } from 'lucide-react';
-
-const getExperienceYears = () => {
-  const start = new Date(2022, 10); 
-  const now = new Date();
-  const diff = now.getTime() - start.getTime();
-  const years = diff / (1000 * 60 * 60 * 24 * 365.25);
-  return years.toFixed(1);
-};
+import { getExperienceYears } from '../utils/experience';
 
 const Hero: React.FC = () => {
   const heroRef = useRef<HTMLDivElement>(null);
   const textRef = useRef<HTMLHeadingElement>(null);
+  const experienceYears = getExperienceYears();
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
@@ -69,12 +63,6 @@ const downloadResume = () => {
   link.click();
   document.body.removeChild(link);
 };
-  const experienceYears = getExperienceYears();
-  useEffect(() => {
-  console.log(`Experience Years: ${experienceYears}`);
-}, [experienceYears]);
-  
-
   return (
     <section id="home" ref={heroRef} className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Animated Background */}
@@ -115,7 +103,7 @@ const downloadResume = () => {
             Software Engineer | Gurgaon, Haryana, India
           </p>
           <p className="text-lg text-gray-400 mb-12 max-w-3xl mx-auto">
-            A passionate Software Engineer with {experienceYears}+ years of experience, eager to build innovative, scalable, and user-centric applications. Committed to solving real-world challenges through efficient code, collaborative teamwork, and continuous learning.
+            Software Engineer with {experienceYears}+ years of experience specializing in Angular and TypeScript, building scalable, responsive enterprise web applications.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <button 

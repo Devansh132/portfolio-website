@@ -4,30 +4,31 @@ import { Calendar, MapPin, Briefcase } from 'lucide-react';
 const Experience: React.FC = () => {
   const experiences = [
     {
-      title: 'Software Developer',
+      title: 'Software Developer I',
       company: 'Centocode Technologies Private Limited',
       location: 'Gurgaon, Haryana, India',
       period: 'Sep 2024 - Current',
       description: [
-        'Developed and optimized web applications using Angular, React, and Bootstrap, focusing on performance, scalability, and user experience.',
-        'Contributed to VisionWay CRM, enhancing client data management, visa tracking, and communication efficiency.',
-        'Built Waptoz, a bulk messaging tool with WhatsApp Business API, enabling secure and scalable client communication.',
-        'Collaborated with cross-functional teams for seamless API integration and high-quality application delivery.'
+        'Designed, developed, tested, and maintained production web applications using JavaScript, TypeScript, Angular, Next.js, and REST APIs.',
+        'Integrated frontend applications with backend services and external APIs to implement data-driven product functionality.',
+        'Worked on AI-powered applications and API integrations involving automated evaluation, data processing, and intelligent workflows.',
+        'Participated in code reviews, debugging production issues, and maintaining clean, well-documented code following best development practices.'
       ],
-      technologies: ['Angular', 'React', 'MUI', 'WhatsApp API', 'Tailwind', 'Typescript', 'Javascript', 'Html/Css', 'REST API']
+      technologies: ['Angular', 'Next.js', 'TypeScript', 'JavaScript', 'REST APIs', 'OpenAI APIs']
     },
     {
       title: 'Frontend Developer',
       company: 'Nashtech Global',
       location: 'Remote',
-      period: 'Nov 2022 - Jul 2024',
+      period: 'Nov 2023 - Jul 2024',
       description: [
-        'Developed and maintained dynamic web applications using Angular and Material-UI.',
-        'Worked on GO 1%, enhancing modularity, fixing bugs, and transforming data for improved UX.',
-        'Contributed to SPRICED-NRP by implementing dynamic Reactive Forms, custom validators, and NgRx for state management.',
-        'Integrated REST APIs and optimized performance through code reusability and error handling.'
+        'Developed and maintained scalable enterprise web applications using Angular, TypeScript, and Angular Material, focusing on scalable frontend architecture and reusable UI components.',
+        'Built modular and maintainable frontend solutions by implementing component-based architecture and reusable UI libraries.',
+        'Integrated REST APIs to enable seamless communication between frontend and backend services.',
+        'Improved application performance and user experience by optimizing UI rendering and implementing efficient state management practices.',
+        'Collaborated with backend developers, designers, and product teams in an Agile environment to deliver features and resolve production issues.'
       ],
-      technologies: ['Angular', 'Material-UI', 'NgRx', 'REST API', 'Typescript', 'Javascript', 'Html/Css']
+      technologies: ['Angular', 'TypeScript', 'Angular Material', 'NgRx', 'RxJS', 'REST APIs']
     }
   ];
 

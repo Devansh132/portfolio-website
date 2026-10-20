@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code2, Palette, Database, Globe, FileCode } from 'lucide-react';
+import { Code2, Palette, Database, Globe, FileCode, Sparkles } from 'lucide-react';
 
 const Skills: React.FC = () => {
   const skillCategories = [
@@ -32,6 +32,23 @@ const Skills: React.FC = () => {
       title: 'Soft Skills',
       skills: ['Problem Solving', 'Self-learning', 'Presentation', 'Adaptability'],
       color: 'from-pink-500 to-rose-500'
+    },
+    {
+      icon: Sparkles,
+      title: 'AI & Developer Productivity',
+      skills: [
+        'OpenAI APIs',
+        'Natural Language Processing',
+        'Intelligent Search',
+        'Automated Evaluation',
+        'AI Workflows',
+        'Cursor',
+        'GitHub Copilot',
+        'ChatGPT',
+        'Claude',
+        'DeepSeek'
+      ],
+      color: 'from-cyan-500 to-blue-500'
     }
   ];
 

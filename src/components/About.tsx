@@ -1,16 +1,9 @@
 import React from 'react';
 import { User, School, Coffee, Globe } from 'lucide-react';
-
-const getExperienceYears = () => {
-  const start = new Date(2022, 10); 
-  const now = new Date();
-  const diff = now.getTime() - start.getTime();
-  const years = diff / (1000 * 60 * 60 * 24 * 365.25);
-  return years.toFixed(1);
-};
+import { getExperienceYears } from '../utils/experience';
 
 const About: React.FC = () => {
-    const experienceYears = getExperienceYears();
+  const experienceYears = getExperienceYears();
   return (
     <section id="about" className="py-20 bg-gradient-to-br from-gray-900 to-gray-800">
       <div className="container mx-auto px-6">
@@ -19,7 +12,7 @@ const About: React.FC = () => {
             About Me
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            A passionate Software Engineer with {experienceYears}+ years of experience, eager to build innovative, scalable, and user-centric applications.
+            Software Engineer with {experienceYears}+ years of experience specializing in Angular and TypeScript, building scalable, responsive enterprise web applications.
           </p>
         </div>
 
@@ -33,7 +26,7 @@ const About: React.FC = () => {
                 <h3 className="text-2xl font-bold text-white">Objective</h3>
               </div>
               <p className="text-gray-300 leading-relaxed">
-                A passionate Software Engineer with {experienceYears}+ years of experience, eager to build innovative, scalable, and user-centric applications. Committed to solving real-world challenges through efficient code, collaborative teamwork, and continuous learning. Seeking an opportunity to contribute to impactful projects while refining my expertise in modern web technologies and software development.
+                Software Engineer with {experienceYears}+ years of experience building scalable web applications with Angular and TypeScript. Experienced in reusable component architecture, REST API integration, performance optimization, production debugging, code reviews, and Agile collaboration.
               </p>
             </div>
             <div className="about-card group">
